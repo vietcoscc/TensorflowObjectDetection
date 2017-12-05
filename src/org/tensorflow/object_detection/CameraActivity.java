@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.demo;
+package org.tensorflow.object_detection;
 
 import android.Manifest;
 import android.app.Activity;
@@ -40,8 +40,8 @@ import android.view.KeyEvent;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import org.tensorflow.demo.env.ImageUtils;
-import org.tensorflow.demo.env.Logger;
+import org.tensorflow.object_detection.env.ImageUtils;
+import org.tensorflow.object_detection.env.Logger;
 
 import java.nio.ByteBuffer;
 

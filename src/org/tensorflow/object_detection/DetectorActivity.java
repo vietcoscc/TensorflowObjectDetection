@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.demo;
+package org.tensorflow.object_detection;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -33,10 +33,10 @@ import android.util.TypedValue;
 import android.view.Display;
 import android.widget.Toast;
 
-import org.tensorflow.demo.OverlayView.DrawCallback;
-import org.tensorflow.demo.env.BorderedText;
-import org.tensorflow.demo.env.ImageUtils;
-import org.tensorflow.demo.env.Logger;
+import org.tensorflow.object_detection.OverlayView.DrawCallback;
+import org.tensorflow.object_detection.env.BorderedText;
+import org.tensorflow.object_detection.env.ImageUtils;
+import org.tensorflow.object_detection.env.Logger;
 
 import java.io.IOException;
 import java.util.Collections;

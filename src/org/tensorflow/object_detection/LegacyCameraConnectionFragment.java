@@ -1,4 +1,4 @@
-package org.tensorflow.demo;
+package org.tensorflow.object_detection;
 
 /*
  * Copyright 2014 The Android Open Source Project
@@ -33,10 +33,10 @@ import java.io.IOException;
 import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
 
-import org.tensorflow.demo.env.Logger;
+import org.tensorflow.object_detection.env.Logger;
 
 // Explicit import needed for internal Google builds.
-import org.tensorflow.demo.R;
+
 
 public class LegacyCameraConnectionFragment extends Fragment {
 
